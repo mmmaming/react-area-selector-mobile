@@ -1,19 +1,9 @@
-import React, { PropTypes } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import PickerView from './picker-view';
 import './picker.css';
 export default class Picker extends React.Component {
-
-	static propTypes = {
-		defaultText: PropTypes.array,
-		defaultSelected: PropTypes.array,
-		onChange: PropTypes.func,
-		onCancel: PropTypes.func,
-		rowCount: PropTypes.number,
-		itemHeight: PropTypes.number,
-
-
-	};
-
+  
 	static defaultProps = {
 		itemHeight: 34,
 		rowCount: 7
@@ -154,4 +144,12 @@ export default class Picker extends React.Component {
 		</div>
 		);
 	}
+}
+Picker.propTypes = {
+  defaultText: PropTypes.array,
+  defaultSelected: PropTypes.array,
+  onChange: PropTypes.func,
+  onCancel: PropTypes.func,
+  rowCount: PropTypes.number,
+  itemHeight: PropTypes.number,
 }
