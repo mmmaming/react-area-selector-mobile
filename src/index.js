@@ -1,4 +1,3 @@
-/*eslint-disable*/
 import React from 'react';
 import areaData from './area-data';
 import Picker from './picker';

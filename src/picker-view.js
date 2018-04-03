@@ -1,4 +1,3 @@
-/*eslint-disable*/
 import React, { PropTypes } from 'react';
 import './picker-view.css';
 export default class PickerView extends React.Component {
