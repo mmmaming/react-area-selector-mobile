@@ -9,6 +9,10 @@ npm
 ### Example
 
 ```js
+
+import AreaSelector from 'react-area-selector';
+
+
 <AreaSelector
     itemHeight={34}
     rowCount={7}
