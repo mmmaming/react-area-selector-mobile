@@ -2,7 +2,7 @@
   "name": "react-area-selector",
   "version": "0.1.10",
   "description": "react-area-selector-mobile",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --config webpack.config.js",
@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/mmmaming/react-area-selector-mobile#readme",
   "dependencies": {
-    "react": "^16.2.0"
+    "babel-core": "^6.26.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "babel-loader": "^7.1.4",
@@ -36,6 +38,6 @@
     "prop-types": "^15.6.1",
     "style-loader": "^0.20.3",
     "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.12"
+    "webpack-cli": "^3.3.0"
   }
 }
